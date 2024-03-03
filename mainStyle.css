@@ -1,0 +1,17 @@
+html{
+    background-color: lemonchiffon;
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    background-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+main h3{
+    text-align: center;
+}
+
+main ul{
+    text-align: center;
+}

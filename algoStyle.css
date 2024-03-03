@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Anta";
+    src: url(Anta.ttf);
+}
+html{
+    background-color: hsl(35, 100%, 95%);
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+#title::before{
+    content: url(CindySmile.png);
+}
+.downloads{
+    text-align: center;
+    background-color: hsl(16, 100%, 27%);
+    border: solid rgb(68, 68, 68);
+}
+.downloads h3{
+    font-size: 2.5em;
+    font-family: "Anta";
+}
+#projects h5{
+    background-color: hsl(16, 100%, 65%);
+    transition: background-color 0.25s, color 0.25s;
+    padding: 1cm 1cm;
+    border-radius: 2cm;
+    border: 5px solid hsl(15, 80%, 40%);
+    text-decoration: none;
+}
+#projects li::marker{
+    content: "🔥";
+}
+#projects h5:hover{
+    background-color: hsl(16, 100%, 80%);
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
